@@ -1,0 +1,5 @@
+script>
+  var str=
+    "No zuo no die,No can no bibi,nothing nano";
+  var kwords=str.match(/\bno\b/ig);
+  console.dir(kwords);
